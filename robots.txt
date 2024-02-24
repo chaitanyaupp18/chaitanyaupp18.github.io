@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://chaitanyaupp18.github.io/al-folio/sitemap.xml
+Sitemap: https://chaitanyaupp18.github.io/chaitanyaupp18.github.io//sitemap.xml
