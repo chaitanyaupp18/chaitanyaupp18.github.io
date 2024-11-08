@@ -38,12 +38,12 @@
       "institution": "University of California, Riverside",
       "location": "Riverside, USA",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "area": "Computer Science and Engineering",
       "studyType": "PhD",
-      "startDate": "2022-09",
+      "startDate": "2022-09-30",
       "endDate": "Present",
       "score": "10",
-      "courses": ["Computer Science and Engineering"]
+      "courses": ["Compiler Construction"]
     }
   ],
   "awards": [
@@ -124,22 +124,14 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "Programming Languages": "C, C++, Python",
+      "Softwares and Frameworks": "LLVM (BOLT), PyTorch",
+      "icon": "fa-solid fa-hashtag"
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Kannada",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -147,20 +139,18 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "Compiler Optimization": "Memory Management and Data Layout techniques",
+      "Machine Learning and Deep Learning": "Statistical Models",
+      "icon": "fa-solid fa-tag"
     }
   ],
   "references": [
