@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-08-21
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Successfully passed my PhD candidacy exam! :sparkles: :smile:
