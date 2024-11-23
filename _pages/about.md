@@ -17,6 +17,4 @@ social: true # includes social icons at the bottom of the page
 
 I am a Ph.D. candidate at the Department of Computer Science & Engineering, University of California Riverside (UCR) where I am fortunate to be advised by [Professor Rajiv Gupta](http://www.cs.ucr.edu/~gupta/).
 
-<p style="display: flex; justify-content: center; align-items: center; text-align: center; height: 100%;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My interests lie in designing compiler optimization techniques, with a particular focus on creating better memory layouts and reducing binary sizes. In this journey, I have had the privilege of collaborating with <a href="https://research.google/people/author37618/?&type=google&type=other" target="_blank">Dr. Sriraman</a> and his group from Google, where we work on tackling new and challenging problems in this domain!
-</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My interests lie in designing compiler optimization techniques, with a particular focus on creating better memory layouts and reducing binary sizes. In this journey, I have had the privilege of collaborating with [Dr. Sriraman](https://research.google/people/author37618/?&type=google&type=other) and his group from Google, where we work on tackling new and challenging problems in this domain!
