@@ -16,3 +16,5 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I am a Ph.D. candidate at the Department of Computer Science & Engineering, University of California Riverside (UCR) where I am fortunate to be advised by Professor Rajiv Gupta.
+
+My interests are in designing compiler optimization techniques especially memory management. 
