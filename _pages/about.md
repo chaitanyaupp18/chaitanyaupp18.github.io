@@ -17,4 +17,4 @@ social: true # includes social icons at the bottom of the page
 
 I am a Ph.D. candidate at the Department of Computer Science & Engineering, University of California Riverside (UCR) where I am fortunate to be advised by [Professor Rajiv Gupta](http://www.cs.ucr.edu/~gupta/).
 
-My interests are in designing compiler optimization techniques especially memory management. 
+&nbsp;&nbsp;My interests are in designing compiler optimization techniques, particularly focussing on designing better memory layout and reducing sizes of the binaries. In this journey, I have had the opportunity to collaborate with Dr. Sriraman and his team from Google where we work on new and challenging problem in this domain!
