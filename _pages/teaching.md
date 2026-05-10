@@ -68,14 +68,36 @@ nav_order: 6
   <div class="card mb-4">
     <div class="card-body">
       <div class="d-flex align-items-center mb-2">
-        <img src="{{ '/assets/img/teaching_icon_3.png' | relative_url }}" style="width: 60px; height: 60px; object-fit: contain; border-radius: 8px; margin-right: 15px; background-color: #f8f9fa; padding: 5px;" alt="Research Talks">
+        <img src="{{ '/assets/img/prefix_talk_thumb.png' | relative_url }}" style="width: 120px; height: auto; object-fit: contain; border-radius: 4px; margin-right: 15px; border: 1px solid #ddd;" alt="PreFix Talk Thumbnail">
         <h4 class="card-title mb-0">Technical Deep-Dive on Heap Layout Optimization</h4>
       </div>
       <p class="card-text text-muted">Google Compiler Optimization Team | 2024</p>
       <p class="card-text">
         Presented a technical deep-dive on heap layout optimization strategies (PreFix) to the Compiler Optimization Team at Google. Discussed how to improve spatial locality and reduce data cache misses.
       </p>
-      <span class="badge badge-info align-self-start mt-2">Invited Talk</span>
+      <div class="d-flex align-items-center mt-2">
+        <span class="badge badge-info mr-2">Invited Talk</span>
+        <button type="button" class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#slidesModal">View Slides</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="slidesModal" tabindex="-1" role="dialog" aria-labelledby="slidesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="slidesModalLabel">Google Talk Slides (PreFix)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/1yqRdsZyOLezegSZeS68odzcMhSOzDLMDDGXTCeiRNDk/embed?start=false&loop=false&delayms=3000&rm=minimal#slide=id.g33c4ed5785b_0_352" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
