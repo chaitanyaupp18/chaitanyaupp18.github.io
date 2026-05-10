@@ -18,3 +18,63 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
+
+// Custom Modernization Styles
+.card {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+html[data-theme="light"] {
+  .card {
+    background: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 15px !important;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+html[data-theme="dark"] {
+  .card {
+    background: rgba(33, 37, 41, 0.7) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 15px !important;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5) !important;
+  }
+}
+
+// Micro-animations for buttons and links
+a.btncv, .nav-link {
+  transition: all 0.2s ease;
+}
+
+a.btncv:hover {
+  transform: scale(1.05);
+}
+
+// Custom scrollbar for modern look
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--global-bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--global-theme-color);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--global-hover-color);
+}
