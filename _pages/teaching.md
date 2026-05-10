@@ -17,7 +17,7 @@ nav_order: 6
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
             <div class="d-flex align-items-center mb-2">
-              <img src="{{ '/assets/img/teaching_icon_1.png' | relative_url }}" style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%; margin-right: 10px;" alt="Compiler Design">
+              <img src="{{ '/assets/img/teaching_icon_1.png' | relative_url }}" style="width: 60px; height: 60px; object-fit: contain; border-radius: 8px; margin-right: 15px; background-color: #f8f9fa; padding: 5px;" alt="Compiler Design">
               <h4 class="card-title mb-0">Compiler Design</h4>
             </div>
             <p class="card-text text-muted">Summer 2025</p>
@@ -33,7 +33,7 @@ nav_order: 6
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
             <div class="d-flex align-items-center mb-2">
-              <img src="{{ '/assets/img/teaching_icon_1.png' | relative_url }}" style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%; margin-right: 10px;" alt="Compiler Design">
+              <img src="{{ '/assets/img/teaching_icon_1.png' | relative_url }}" style="width: 60px; height: 60px; object-fit: contain; border-radius: 8px; margin-right: 15px; background-color: #f8f9fa; padding: 5px;" alt="Compiler Design">
               <h4 class="card-title mb-0">Compiler Design</h4>
             </div>
             <p class="card-text text-muted">Summer 2024</p>
@@ -51,7 +51,7 @@ nav_order: 6
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
             <div class="d-flex align-items-center mb-2">
-              <img src="{{ '/assets/img/teaching_icon_2.png' | relative_url }}" style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%; margin-right: 10px;" alt="Compiler Construction">
+              <img src="{{ '/assets/img/teaching_icon_2.png' | relative_url }}" style="width: 60px; height: 60px; object-fit: contain; border-radius: 8px; margin-right: 15px; background-color: #f8f9fa; padding: 5px;" alt="Compiler Construction">
               <h4 class="card-title mb-0">Compiler Construction</h4>
             </div>
             <p class="card-text text-muted">Fall 2023</p>
@@ -68,7 +68,7 @@ nav_order: 6
   <div class="card mb-4">
     <div class="card-body">
       <div class="d-flex align-items-center mb-2">
-        <img src="{{ '/assets/img/teaching_icon_3.png' | relative_url }}" style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%; margin-right: 10px;" alt="Research Talks">
+        <img src="{{ '/assets/img/teaching_icon_3.png' | relative_url }}" style="width: 60px; height: 60px; object-fit: contain; border-radius: 8px; margin-right: 15px; background-color: #f8f9fa; padding: 5px;" alt="Research Talks">
         <h4 class="card-title mb-0">Technical Deep-Dive on Heap Layout Optimization</h4>
       </div>
       <p class="card-text text-muted">Google Compiler Optimization Team | 2024</p>
