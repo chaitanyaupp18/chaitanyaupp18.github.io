@@ -3,7 +3,7 @@
   {% for content in publications %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-3 col-sm-3 col-md-3 text-center" style="width: 100px">
+        <div class="col-xs-3 col-sm-3 col-md-3 text-center" >
           {% if content.releaseDate %} {% assign date = content.releaseDate | split: '-' | join: '.' %} {% else %} {% assign date = '' %} {% endif %}
           <table class="table-cv">
             <tbody>

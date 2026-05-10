@@ -3,7 +3,7 @@
   {% for content in work %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-3 col-sm-3 col-md-3 text-center" style="width: 100px">
+        <div class="col-xs-3 col-sm-3 col-md-3 text-center" >
           {% if content.startDate %}
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
