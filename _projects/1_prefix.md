@@ -2,7 +2,7 @@
 layout: page
 title: PreFix
 description: Optimizing the Performance of Heap-Intensive Applications.
-img: assets/img/publication_preview/prefix.png
+img: assets/img/publication_preview/prefix.jpg
 importance: 1
 category: work
 ---

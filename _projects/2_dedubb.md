@@ -2,7 +2,7 @@
 layout: page
 title: DeduBB
 description: Binary Code Size Reduction via Post-Link Basic Block De-duplication.
-img: assets/img/publication_preview/dedubb.png
+img: assets/img/publication_preview/dedubb.jpg
 importance: 2
 category: work
 ---
