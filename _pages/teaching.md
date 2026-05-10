@@ -84,7 +84,7 @@ nav_order: 6
 
   <!-- Modal -->
   <div class="modal fade" id="slidesModal" tabindex="-1" role="dialog" aria-labelledby="slidesModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="slidesModalLabel">Google Talk Slides (PreFix)</h5>
@@ -94,7 +94,7 @@ nav_order: 6
         </div>
         <div class="modal-body">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/1yqRdsZyOLezegSZeS68odzcMhSOzDLMDDGXTCeiRNDk/embed?start=false&loop=false&delayms=3000&rm=minimal#slide=id.g33c4ed5785b_0_352" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/1yqRdsZyOLezegSZeS68odzcMhSOzDLMDDGXTCeiRNDk/embed?start=false&loop=false&delayms=3000&rm=minimal" allowfullscreen></iframe>
           </div>
         </div>
       </div>
