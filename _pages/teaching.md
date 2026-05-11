@@ -77,28 +77,10 @@ nav_order: 6
       </p>
       <div class="d-flex align-items-center mt-2">
         <span class="badge badge-info mr-2">Invited Talk</span>
-        <button type="button" class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#slidesModal">View Slides</button>
       </div>
     </div>
   </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="slidesModal" tabindex="-1" role="dialog" aria-labelledby="slidesModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="slidesModalLabel">Google Talk Slides (PreFix)</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/1yqRdsZyOLezegSZeS68odzcMhSOzDLMDDGXTCeiRNDk/embed?start=false&loop=false&delayms=3000&rm=minimal" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
 </div>
