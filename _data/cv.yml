@@ -3,95 +3,80 @@
   contents:
     - name: Full Name
       value: Chaitanya Mamatha Ananda
-    - name: Date of Birth
-      value: 18th November 1999
-    - name: Languages
-      value: English, Kannada, Hindi
+    - name: Location
+      value: Riverside, CA
+    - name: Email
+      value: cmama002@ucr.edu
+    - name: Phone
+      value: 951-907-8519
+
+- title: Summary
+  type: list
+  contents:
+    - Computer Science Ph.D. candidate specializing in LLVM-based compiler optimization, with a research focus on improving data and code locality. Experience in profile-guided optimization, post-link binary optimization, and AI-driven code-layout optimization.
+
+- title: Technical Skills
+  type: list
+  contents:
+    - <b>Programming:</b> C++, C, Python, NumPy; Linux, Git
+    - <b>Compilers:</b> LLVM, BOLT, Propeller, profile-guided optimization (PGO/FDO), post-link optimization, interprocedural optimization, basic block reordering and deduplication, code layout, heap locality
+    - <b>Performance:</b> x86, Arm (AArch64), perf, hardware performance counters, profiling, benchmarking
+    - <b>ML for Compiler Optimization:</b> AlphaEvolve, Vizier, MLGO, Evolution Strategies, heuristic search
 
 - title: Education
   type: time_table
   contents:
-    - title: Doctor of Philosophy (PhD)
-      institution: University of California, Riverside, USA
-      year: Present
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Bachelor of Engineering (B.E.)
-      institution: Bangalore Institute of Technology (BIT), Bangalore, India
+    - title: Ph.D. in Computer Science
+      institution: University of California, Riverside
+      year: Sep 2022 - Present
+    - title: B.E. in Computer Science and Engineering
+      institution: Bangalore Institute of Technology, India
       year: 2021
-      description:
-        - Description 1.
-        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Student Researcher
+      institution: Google, Sunnyvale, CA
+      year: Sep 2025 - May 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed AI-PROPELLER, extending Google's Propeller with AI-driven interprocedural code-layout optimization for warehouse-scale binaries; used AlphaEvolve and hardware counters to guide heuristic search.
+        - Reduced execution time by 1.6% on LLVM Clang and 0.23% on a production Search workload.
+    - title: Ph.D. Researcher
+      institution: University of California, Riverside, CA
+      year: Sep 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developed PreFix, a profile-guided heap-layout optimization that groups hot objects to improve data locality; reduced execution time by 21.7% on average.
+        - Developed DeduBB, a post-link basic block deduplication technique implemented in BOLT and Propeller for x86 and AArch64; reduced binary size by up to 25.8%.
+        - Handled stack-manipulating code across modules; used profiles to deduplicate cold blocks and preserve performance.
+    - title: Undergraduate Researcher
+      institution: Indian Institute of Science, Bengaluru, India
+      year: Aug 2019 - May 2022
       description:
+        - Built a parallel programming model for PDE solvers using Regent/Legion; developed a scientific-data anomaly detector using statistical and deep-learning methods.
+    - title: Project Trainee
+      institution: Robert Bosch Engineering and Business Solutions
+      year: Spring 2021
+      description:
+        - Developed scripts to synchronize video and radar data collected during automated test driving.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b>PreFix: Optimizing the Performance of Heap-Intensive Applications.</b><br> C. Mamatha Ananda, R. Gupta, S. Tallam, H. Shen, and X. D. Li. <br><i>CGO 2025</i>
+    - <b>DeduBB: Binary Code Size Reduction via Post-Link Basic Block Deduplication.</b><br> C. Mamatha Ananda, M. Afarin, R. Gupta, S. Tallam, H. Shen, and X. D. Li. <br><i>LCTES 2026</i>
+    - <b>AI-PROPELLER: Warehouse-Scale Interprocedural Code Layout Optimization with AlphaEvolve.</b><br> C. Mamatha Ananda, R. Gupta, M. Trofin, A. Grossman, S. Tallam, X. D. Li, and A. Yazdanbakhsh. <br><i>MLArchSys 2026; CAIS AID-Wild 2026 (workshops)</i>
+
+- title: Patent
+  type: list
+  contents:
+    - <b>Generate Better Code Layout Heuristics</b> | Co-inventor, Google | Patent filed June 2026
+
+- title: Awards & Teaching
+  type: time_table
+  contents:
+    - title: Dean's Distinguished Fellowship
+      institution: UC Riverside
+      year: 2022
+    - title: Teaching Assistant (Compiler Design and Construction)
+      institution: UC Riverside
