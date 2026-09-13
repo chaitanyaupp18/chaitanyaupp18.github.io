@@ -60,6 +60,13 @@
       description:
         - Developed scripts to synchronize video and radar data collected during automated test driving.
 
+- title: Projects
+  type: list
+  contents:
+    - <b>PreFix:</b> Developed PreFix, a novel optimization technique for heap-intensive applications that achieves near perfect separation of hot objects, improving spatial locality and application performance. PreFix employs profiling-guided hot object identification, preallocated memory regions, and object recycling, resulting in an average execution time reduction of 21.7% (up to 74%), significantly outperforming existing solutions like HDS and HALO. [CGO '25]
+    - <b>DeduBB:</b> Developed a framework for reducing the size of production binaries on x86 and Arm architectures at the post-link stage. [LCTES '26]
+    - <b>AI-Propeller:</b> Developed an agentic workflow that evolves compiler heuristics into a fine-grained interprocedural optimizer using hardware counters for a precise reward signal. Evaluated on large warehouse-scale applications, showing 0.23% to 1.6% performance improvements over state-of-the-art FDO and PLO.
+
 - title: Publications
   type: list
   contents:
