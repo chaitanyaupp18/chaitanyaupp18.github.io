@@ -35,7 +35,7 @@ nav_order: 3
         <div class="col-sm-12">
           <p>DeduBB reduces binary code size by sharing repeated basic blocks across functions and modules after linking. Its save-and-jump mechanism supports code patterns, including stack-manipulating instructions, that conventional function outlining cannot readily handle. Implemented in BOLT and Propeller, DeduBB scales to large applications and uses execution profiles to focus deduplication on cold blocks, limiting performance overhead. Experiments on Arm and x86 show code size reductions of 1.55% to 18.63% on benchmarks already optimized for size. Profile-guided selection retains more than 80% of the maximum savings without affecting performance in the reported experiments.</p>
           <p>Repeated code becomes one shared copy; each execution resumes at its original continuation.</p>
-          <p><a href="https://dl.acm.org/doi/10.1145/3814943.3816169" target="_blank">Paper</a> · <a href="https://research.google/pubs/dedubb-binary-code-size-reduction-via-post-link-basic-block-de-duplication/" target="_blank">Abstract</a></p>
+          <p><a href="https://dl.acm.org/doi/10.1145/3814943.3816169" target="_blank">Paper</a> · <a href="https://research.google/pubs/dedubb-binary-code-size-reduction-via-post-link-basic-block-de-duplication/" target="_blank">Abstract</a> · <a href="https://github.com/chaitanyaupp18/DeduBB" target="_blank">Code</a></p>
         </div>
       </div>
     </div>
